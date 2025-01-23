@@ -10,5 +10,11 @@ public class MainController {
     public String hello() {
         return "Hello, World!";
     }
+
+    @GetMapping("/hello")
+    public String hello2() {
+        return "Hello, World!";
+    }
+    
 }
 
